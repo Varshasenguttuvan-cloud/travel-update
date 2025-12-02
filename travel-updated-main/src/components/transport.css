@@ -1,0 +1,93 @@
+.transport-wrapper {
+  padding: 30px 50px;
+  background: #f4f6f9;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #1f354d;
+  font-weight: bold;
+}
+
+.transport-section {
+  margin-bottom: 60px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding-bottom: 30px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 20px;
+  color: #233142;
+  text-align: center;
+}
+
+.section-banner {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.booking-card {
+  width: 220px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.booking-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.card-logo {
+  width: 100px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #2d4059;
+}
+
+.book-btn {
+  padding: 10px 16px;
+  background: #1e90ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.book-btn:hover {
+  background: #0f6acb;
+}
+.transport-wrapper {
+  padding: 30px 50px;
+  background-image: url("https://images.pexels.com/photos/14161885/pexels-photo-14161885.png?cs=srgb&dl=pexels-senthil-manikandan-1962908-14161885.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  backdrop-filter: blur(2px);
+}
+

@@ -1,0 +1,56 @@
+.explore-container {
+  padding: 40px;
+  background-image: url("https://images.pexels.com/photos/14161885/pexels-photo-14161885.png?cs=srgb&dl=pexels-senthil-manikandan-1962908-14161885.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  text-align: center;
+}
+
+
+.explore-title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #003366;
+  margin-bottom: 30px;
+}
+
+.map-box {
+  width: 100%;
+  height: 420px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  margin-bottom: 35px;
+}
+
+.map-box iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.explore-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.explore-buttons button {
+  padding: 14px 28px;
+  background: #0066ff;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.explore-buttons button:hover {
+  background: #0051cc;
+  transform: scale(1.07);
+}
