@@ -1,12 +1,12 @@
-/* Container for the entire visiting places page */
+
 .visiting-container {
   padding: 30px 20px;
   min-height: 100vh;
-  background: #f0f4f8; /* light, neutral background */
+  background: #f0f4f8; 
   font-family: 'Inter', sans-serif;
 }
 
-/* Page title */
+ 
 .visiting-container h1 {
   text-align: center;
   margin-bottom: 30px;
@@ -15,7 +15,7 @@
   color: #1a1a1a;
 }
 
-/* Back button */
+
 .back-btn {
   display: inline-block;
   margin-bottom: 25px;
@@ -35,14 +35,14 @@
   transform: scale(1.05);
 }
 
-/* Grid layout for all place cards */
+
 .places-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
 
-/* Individual place card */
+
 .place-card {
   background-color: white;
   border-radius: 12px;
@@ -60,7 +60,7 @@
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
 }
 
-/* Image inside the card */
+
 .place-card img {
   width: 100%;
   height: 180px;
@@ -68,7 +68,7 @@
   border-bottom: 1px solid #ddd;
 }
 
-/* Place name */
+
 .place-card h2 {
   font-size: 18px;
   font-weight: 600;
@@ -76,7 +76,7 @@
   color: #222;
 }
 
-/* Place description */
+
 .place-card p {
   font-size: 14px;
   color: #555;
@@ -84,7 +84,7 @@
   line-height: 1.4;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 600px) {
   .place-card img {
     height: 150px;
